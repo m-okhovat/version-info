@@ -1,4 +1,4 @@
-# DevOps-Utility-Versioning
+# Version-Info
 
 This package provides a way to get semantic versioning information from a project via a http handler middleware.
 
