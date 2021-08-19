@@ -138,8 +138,8 @@ class Build : NukeBuild
                     .SetAuthors("Mehdi Okhovat")
                     .SetDescription(description)
                     .SetPackageTags(tags)
-                    .SetPackageLicenseUrl("https://github.com/m-okhovat/liteserver/blob/master/LICENSE")
-                    .SetPackageProjectUrl("https://github.com/m-okhovat/liteserver"));
+                    .SetPackageLicenseUrl("https://github.com/m-okhovat/version-info/blob/master/LICENSE")
+                    .SetPackageProjectUrl("https://github.com/m-okhovat/version-info"));
             }
         });
 
