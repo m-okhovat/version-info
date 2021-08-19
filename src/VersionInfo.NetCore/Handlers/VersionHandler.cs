@@ -1,9 +1,9 @@
-﻿using DevOpsUtility.Versionings.Core;
+﻿using System.Threading.Tasks;
 using LiteServer.Http.Extensions;
 using LiteServer.Http.HttpContext;
-using System.Threading.Tasks;
+using VersionInfo.Core;
 
-namespace DevOpsUtility.Versionings.NetCore.Handlers
+namespace VersionInfo.NetCore.Handlers
 {
     public class VersionHandler
     {

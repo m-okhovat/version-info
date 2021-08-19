@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOpsUtility.Versionings.AspNetCore", "src\DevOpsUtility.Versionings.AspNetCore\DevOpsUtility.Versionings.AspNetCore.csproj", "{772C7E55-7251-435D-A288-789177D4BEC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VersionInfo.AspNetCore", "src\VersionInfo.AspNetCore\VersionInfo.AspNetCore.csproj", "{772C7E55-7251-435D-A288-789177D4BEC1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOpsUtility.Versionings.Core", "src\DevOpsUtility.Versionings.Core\DevOpsUtility.Versionings.Core.csproj", "{3781C36F-B041-404A-83FD-BAC4D2330D9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VersionInfo.Core", "src\VersionInfo.Core\VersionInfo.Core.csproj", "{3781C36F-B041-404A-83FD-BAC4D2330D9A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOpsUtility.Versionings.NetCore", "src\DevOpsUtility.Versionings.NetCore\DevOpsUtility.Versionings.NetCore.csproj", "{B8EF96D4-E661-4CA9-BFF7-BC2E0780C1EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VersionInfo.NetCore", "src\VersionInfo.NetCore\VersionInfo.NetCore.csproj", "{B8EF96D4-E661-4CA9-BFF7-BC2E0780C1EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

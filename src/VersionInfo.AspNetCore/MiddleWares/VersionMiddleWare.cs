@@ -1,8 +1,8 @@
-﻿using DevOpsUtility.Versionings.Core;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-using System.Threading.Tasks;
+using VersionInfo.Core;
 
-namespace DevOpsUtility.Versionings.AspNetCore.MiddleWares
+namespace VersionInfo.AspNetCore.MiddleWares
 {
     public class VersionMiddleware
     {

@@ -1,8 +1,8 @@
-﻿using DevOpsUtility.Versionings.AspNetCore.MiddleWares;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
+using VersionInfo.AspNetCore.MiddleWares;
 
-namespace DevOpsUtility.Versionings.AspNetCore.Extensions
+namespace VersionInfo.AspNetCore.Extensions
 {
     public static class VersionEndpointRouteBuilderExtensions
     {

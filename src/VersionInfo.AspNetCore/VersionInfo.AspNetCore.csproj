@@ -11,7 +11,7 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\DevOpsUtility.Versionings.NetCore\DevOpsUtility.Versionings.NetCore.csproj" />
+    <ProjectReference Include="..\VersionInfo.Core\VersionInfo.Core.csproj" />
   </ItemGroup>
 
 </Project>

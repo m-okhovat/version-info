@@ -1,4 +1,4 @@
-﻿namespace DevOpsUtility.Versionings.Core.Models
+﻿namespace VersionInfo.Core.Models
 {
     public class VersionInfo
     {

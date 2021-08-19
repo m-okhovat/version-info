@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DevOpsUtility.Versionings.Core\DevOpsUtility.Versionings.Core.csproj" />
+    <ProjectReference Include="..\VersionInfo.Core\VersionInfo.Core.csproj" />
   </ItemGroup>
 
 </Project>

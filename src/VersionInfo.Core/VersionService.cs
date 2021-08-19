@@ -1,9 +1,8 @@
-﻿using DevOpsUtility.Versionings.Core.Models;
-using Newtonsoft.Json;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Reflection;
+using Newtonsoft.Json;
 
-namespace DevOpsUtility.Versionings.Core
+namespace VersionInfo.Core
 {
     public static class VersionService
     {
@@ -12,7 +11,7 @@ namespace DevOpsUtility.Versionings.Core
             var entryAssembly = Assembly.GetEntryAssembly();
             var fileVersion = FileVersionInfo.GetVersionInfo(entryAssembly.Location).FileVersion;
             var productVersion = FileVersionInfo.GetVersionInfo(entryAssembly.Location).ProductVersion;
-            var versionInfo = new VersionInfo()
+            var versionInfo = new Models.VersionInfo()
             {
                 ProductVersion = productVersion,
                 FileVersion = fileVersion
