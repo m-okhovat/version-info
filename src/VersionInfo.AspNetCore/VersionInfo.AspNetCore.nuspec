@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <description>Add a middleware for providing version info through an endpoint</description>
+    <tags>version-info middleware asp-net-core</tags>
+  </metadata>
+</package>

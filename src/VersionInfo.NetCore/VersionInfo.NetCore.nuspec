@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <description>Add a middleware for providing version info</description>
+    <tags>version-info middleware net-core</tags>
+  </metadata>
+</package>

@@ -110,7 +110,7 @@ class Build : NukeBuild
                     .EnableUseSourceLink()
                 .CombineWith(testProjects, (b, z) => b
                     .SetProjectFile(z)
-                    .SetLogger($"trx;LogFileName={z.Name}.trx")
+                    // .SetLogger($"trx;LogFileName={z.Name}.trx")
                     .SetCoverletOutput(TestResultDirectory + $"{z.Name}.xml")));
         });
 
@@ -121,6 +121,7 @@ class Build : NukeBuild
             var projectsToPack = Solution.AllProjects
                 .Where(s => !s.Name.Contains("Tests", StringComparison.OrdinalIgnoreCase)
                             && !s.Name.Contains("Sample", StringComparison.OrdinalIgnoreCase)
+                            && !s.Name.Contains("VersionInfo.Core", StringComparison.OrdinalIgnoreCase)
                             && !s.Name.Contains("build", StringComparison.OrdinalIgnoreCase));
 
             foreach (var project in projectsToPack)
